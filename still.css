@@ -1,0 +1,53 @@
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #9386a3;
+}
+
+/* Başlık */
+header {
+    background-color: #3a363f;
+    color: white;
+    padding: 30px;
+}
+/* Kitap Listesi */
+.Kitap-Listesi {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+/* Kitap Kartları */
+.Kitap {
+    background: rgb(114, 106, 114);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+    padding: 30px;
+    width: 250px;
+}
+.Kitap img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.Kitap h2 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.Kitap p {
+    color: #060505;
+}
+/* Responsive (Mobil Uyumlu) */
+@media (max-width: 768px) {
+    .book-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
